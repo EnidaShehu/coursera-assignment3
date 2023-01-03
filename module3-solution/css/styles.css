@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  position: fixed;
+  height: auto;
+}
+
+.navbar-brand h1{
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+ 
+}
+
+#nav-list a {
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#nav-list li:first-child {
+  border-top: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #25384b;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.container .navbar-collapse {
+
+  margin-bottom: -10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #808080;
+}
+
+#menu-categories-title {
+  margin-top: 60px;
+  color: black;
+}
+
+.menu-item-description {
+  padding-right: 30px;
+  background-color: #808080;
+}
+
+h3.menu-item-title {
+  color: black;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.menu-item-details {
+  font-size: .9em;
+  color: black;
+  padding: 10px;
+  margin-left: 5px;
+  text-align: left;
+
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 20px;
+  }
+  .navbar-brand h1 { 
+    font-size: 4vw; 
+  }
+.row{
+  padding: 30px;
+}
+
+#menu-categories-title{
+  margin-top: 100px;
+  
+}
